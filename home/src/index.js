@@ -26,7 +26,7 @@ registerApplication(
 
 registerApplication(
     'buy',
-    () => import('buy/Buy'),
+    () => import('buy/buy'),
     location => location.pathname.startsWith('/')
 );
 

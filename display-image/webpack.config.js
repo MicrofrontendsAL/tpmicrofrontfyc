@@ -42,7 +42,7 @@ module.exports = {
                 displayTicket: 'displayTicket',
             },
             exposes: {
-                './DisplayTicket': './src/index'
+                './displayImage': './src/index'
             },
             shared: ['single-spa-html']
         }),

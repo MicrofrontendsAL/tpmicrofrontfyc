@@ -3,11 +3,11 @@ var displayTicket;
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 872:
+/***/ 982:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var moduleMap = {
-	"./DisplayTicket": () => {
+	"./displayTicket": () => {
 		return __webpack_require__.e(545).then(() => (() => ((__webpack_require__(545)))));
 	}
 };
@@ -313,7 +313,7 @@ __webpack_require__.d(exports, {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(872);
+/******/ 	var __webpack_exports__ = __webpack_require__(982);
 /******/ 	displayTicket = __webpack_exports__;
 /******/ 	
 /******/ })()

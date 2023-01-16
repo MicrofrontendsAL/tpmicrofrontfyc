@@ -51,7 +51,7 @@ module.exports = {
                 displayTicket: 'displayTicket',
             },
             exposes: {
-                './Buy': './src/index'
+                './buy': './src/index'
             },
             shared: []
         }),

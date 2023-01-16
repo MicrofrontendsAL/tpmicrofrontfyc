@@ -3,11 +3,11 @@ var buy;
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 489:
+/***/ 661:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var moduleMap = {
-	"./Buy": () => {
+	"./buy": () => {
 		return Promise.all([__webpack_require__.e(136), __webpack_require__.e(92)]).then(() => (() => ((__webpack_require__(92)))));
 	}
 };
@@ -409,7 +409,7 @@ module.exports = home;
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(489);
+/******/ 	var __webpack_exports__ = __webpack_require__(661);
 /******/ 	buy = __webpack_exports__;
 /******/ 	
 /******/ })()

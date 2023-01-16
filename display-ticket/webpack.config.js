@@ -45,7 +45,7 @@ module.exports = {
             remotes: {
             },
             exposes: {
-                './DisplayTicket': './src/display-ticket'
+                './displayTicket': './src/display-ticket'
             },
             shared: []
         }),

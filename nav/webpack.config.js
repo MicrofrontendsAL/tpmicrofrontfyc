@@ -41,8 +41,8 @@ module.exports = {
                 displayTicket: 'displayTicket',
             },
             exposes: {
-                './Header': './src/header',
-                './Footer': './src/footer',
+                './header': './src/header',
+                './footer': './src/footer',
             },
             shared: ['react', 'react-dom', 'single-spa-react']
         }),

@@ -990,7 +990,7 @@ Ot('display-image', () => __webpack_require__.e(/* import() */ 524).then(__webpa
 Ot('display-ticket', () => __webpack_require__.e(/* import() */ 588).then(__webpack_require__.t.bind(__webpack_require__, 588, 23)), location => location.pathname.startsWith('/'));
 Ot('header', () => __webpack_require__.e(/* import() */ 648).then(__webpack_require__.t.bind(__webpack_require__, 648, 23)), location => location.pathname.startsWith('/'));
 Ot('footer', () => __webpack_require__.e(/* import() */ 969).then(__webpack_require__.t.bind(__webpack_require__, 969, 23)), location => location.pathname.startsWith('/'));
-Ot('buy', () => __webpack_require__.e(/* import() */ 832).then(__webpack_require__.t.bind(__webpack_require__, 832, 23)), location => location.pathname.startsWith('/'));
+Ot('buy', () => __webpack_require__.e(/* import() */ 218).then(__webpack_require__.t.bind(__webpack_require__, 218, 23)), location => location.pathname.startsWith('/'));
 xt({
   urlRerouteOnly: true
 });
@@ -1199,6 +1199,9 @@ module.exports = nav;
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	(() => {
 /******/ 		var chunkMapping = {
+/******/ 			"218": [
+/******/ 				218
+/******/ 			],
 /******/ 			"524": [
 /******/ 				524
 /******/ 			],
@@ -1208,14 +1211,16 @@ module.exports = nav;
 /******/ 			"648": [
 /******/ 				648
 /******/ 			],
-/******/ 			"832": [
-/******/ 				832
-/******/ 			],
 /******/ 			"969": [
 /******/ 				969
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
+/******/ 			"218": [
+/******/ 				"default",
+/******/ 				"./buy",
+/******/ 				885
+/******/ 			],
 /******/ 			"524": [
 /******/ 				"default",
 /******/ 				"./displayImage",
@@ -1230,11 +1235,6 @@ module.exports = nav;
 /******/ 				"default",
 /******/ 				"./header",
 /******/ 				787
-/******/ 			],
-/******/ 			"832": [
-/******/ 				"default",
-/******/ 				"./Buy",
-/******/ 				885
 /******/ 			],
 /******/ 			"969": [
 /******/ 				"default",

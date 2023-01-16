@@ -3,14 +3,14 @@ var nav;
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 834:
+/***/ 61:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var moduleMap = {
-	"./Header": () => {
+	"./header": () => {
 		return Promise.all([__webpack_require__.e(822), __webpack_require__.e(789), __webpack_require__.e(132)]).then(() => (() => ((__webpack_require__(132)))));
 	},
-	"./Footer": () => {
+	"./footer": () => {
 		return Promise.all([__webpack_require__.e(822), __webpack_require__.e(789), __webpack_require__.e(905)]).then(() => (() => ((__webpack_require__(905)))));
 	}
 };
@@ -579,7 +579,7 @@ module.exports = displayTicket;
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(834);
+/******/ 	var __webpack_exports__ = __webpack_require__(61);
 /******/ 	nav = __webpack_exports__;
 /******/ 	
 /******/ })()

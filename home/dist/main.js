@@ -2,45 +2,11 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/single-spa/lib/esm/single-spa.min.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/single-spa/lib/esm/single-spa.min.js ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 841:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "BOOTSTRAPPING": () => (/* binding */ m),
-/* harmony export */   "LOADING_SOURCE_CODE": () => (/* binding */ p),
-/* harmony export */   "LOAD_ERROR": () => (/* binding */ y),
-/* harmony export */   "MOUNTED": () => (/* binding */ w),
-/* harmony export */   "MOUNTING": () => (/* binding */ d),
-/* harmony export */   "NOT_BOOTSTRAPPED": () => (/* binding */ h),
-/* harmony export */   "NOT_LOADED": () => (/* binding */ l),
-/* harmony export */   "NOT_MOUNTED": () => (/* binding */ v),
-/* harmony export */   "SKIP_BECAUSE_BROKEN": () => (/* binding */ P),
-/* harmony export */   "UNMOUNTING": () => (/* binding */ E),
-/* harmony export */   "UPDATING": () => (/* binding */ g),
-/* harmony export */   "addErrorHandler": () => (/* binding */ a),
-/* harmony export */   "checkActivityFunctions": () => (/* binding */ bt),
-/* harmony export */   "ensureJQuerySupport": () => (/* binding */ ft),
-/* harmony export */   "getAppNames": () => (/* binding */ yt),
-/* harmony export */   "getAppStatus": () => (/* binding */ Pt),
-/* harmony export */   "getMountedApps": () => (/* binding */ Et),
-/* harmony export */   "mountRootParcel": () => (/* binding */ C),
-/* harmony export */   "navigateToUrl": () => (/* binding */ nt),
-/* harmony export */   "pathToActiveWhen": () => (/* binding */ _t),
-/* harmony export */   "registerApplication": () => (/* binding */ Ot),
-/* harmony export */   "removeErrorHandler": () => (/* binding */ c),
-/* harmony export */   "setBootstrapMaxTime": () => (/* binding */ F),
-/* harmony export */   "setMountMaxTime": () => (/* binding */ J),
-/* harmony export */   "setUnloadMaxTime": () => (/* binding */ Q),
-/* harmony export */   "setUnmountMaxTime": () => (/* binding */ H),
-/* harmony export */   "start": () => (/* binding */ xt),
-/* harmony export */   "triggerAppChange": () => (/* binding */ Mt),
-/* harmony export */   "unloadApplication": () => (/* binding */ At),
-/* harmony export */   "unregisterApplication": () => (/* binding */ Tt)
-/* harmony export */ });
+
+;// CONCATENATED MODULE: ./node_modules/single-spa/lib/esm/single-spa.min.js
 /* single-spa@5.9.4 - ESM - prod */
 var t = Object.freeze({
   __proto__: null,
@@ -1018,63 +984,41 @@ var Gt = {
 };
 Y && window.__SINGLE_SPA_DEVTOOLS__ && (window.__SINGLE_SPA_DEVTOOLS__.exposedMethods = Gt);
 
+;// CONCATENATED MODULE: ./src/index.js
 
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var single_spa__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! single-spa */ "./node_modules/single-spa/lib/esm/single-spa.min.js");
-
-(0,single_spa__WEBPACK_IMPORTED_MODULE_0__.registerApplication)('display-image', () => __webpack_require__.e(/*! import() */ "webpack_container_remote_displayImage_DisplayImage").then(__webpack_require__.t.bind(__webpack_require__, /*! displayImage/DisplayImage */ "webpack/container/remote/displayImage/DisplayImage", 23)), location => location.pathname.startsWith('/'));
-(0,single_spa__WEBPACK_IMPORTED_MODULE_0__.registerApplication)('display-ticket', () => __webpack_require__.e(/*! import() */ "webpack_container_remote_displayTicket_DisplayTicket").then(__webpack_require__.t.bind(__webpack_require__, /*! displayTicket/DisplayTicket */ "webpack/container/remote/displayTicket/DisplayTicket", 23)), location => location.pathname.startsWith('/'));
-(0,single_spa__WEBPACK_IMPORTED_MODULE_0__.registerApplication)('header', () => __webpack_require__.e(/*! import() */ "webpack_container_remote_nav_Header").then(__webpack_require__.t.bind(__webpack_require__, /*! nav/Header */ "webpack/container/remote/nav/Header", 23)), location => location.pathname.startsWith('/'));
-(0,single_spa__WEBPACK_IMPORTED_MODULE_0__.registerApplication)('footer', () => __webpack_require__.e(/*! import() */ "webpack_container_remote_nav_Footer").then(__webpack_require__.t.bind(__webpack_require__, /*! nav/Footer */ "webpack/container/remote/nav/Footer", 23)), location => location.pathname.startsWith('/'));
-(0,single_spa__WEBPACK_IMPORTED_MODULE_0__.registerApplication)('buy', () => __webpack_require__.e(/*! import() */ "webpack_container_remote_buy_Buy").then(__webpack_require__.t.bind(__webpack_require__, /*! buy/Buy */ "webpack/container/remote/buy/Buy", 23)), location => location.pathname.startsWith('/'));
-(0,single_spa__WEBPACK_IMPORTED_MODULE_0__.start)({
+Ot('display-image', () => __webpack_require__.e(/* import() */ 524).then(__webpack_require__.t.bind(__webpack_require__, 524, 23)), location => location.pathname.startsWith('/'));
+Ot('display-ticket', () => __webpack_require__.e(/* import() */ 588).then(__webpack_require__.t.bind(__webpack_require__, 588, 23)), location => location.pathname.startsWith('/'));
+Ot('header', () => __webpack_require__.e(/* import() */ 648).then(__webpack_require__.t.bind(__webpack_require__, 648, 23)), location => location.pathname.startsWith('/'));
+Ot('footer', () => __webpack_require__.e(/* import() */ 969).then(__webpack_require__.t.bind(__webpack_require__, 969, 23)), location => location.pathname.startsWith('/'));
+Ot('buy', () => __webpack_require__.e(/* import() */ 832).then(__webpack_require__.t.bind(__webpack_require__, 832, 23)), location => location.pathname.startsWith('/'));
+xt({
   urlRerouteOnly: true
 });
 
 /***/ }),
 
-/***/ "webpack/container/reference/buy":
-/*!**********************!*\
-  !*** external "buy" ***!
-  \**********************/
+/***/ 885:
 /***/ ((module) => {
 
 module.exports = buy;
 
 /***/ }),
 
-/***/ "webpack/container/reference/displayImage":
-/*!*******************************!*\
-  !*** external "displayImage" ***!
-  \*******************************/
+/***/ 837:
 /***/ ((module) => {
 
 module.exports = displayImage;
 
 /***/ }),
 
-/***/ "webpack/container/reference/displayTicket":
-/*!********************************!*\
-  !*** external "displayTicket" ***!
-  \********************************/
+/***/ 840:
 /***/ ((module) => {
 
 module.exports = displayTicket;
 
 /***/ }),
 
-/***/ "webpack/container/reference/nav":
-/*!**********************!*\
-  !*** external "nav" ***!
-  \**********************/
+/***/ 787:
 /***/ ((module) => {
 
 module.exports = nav;
@@ -1255,47 +1199,47 @@ module.exports = nav;
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	(() => {
 /******/ 		var chunkMapping = {
-/******/ 			"webpack_container_remote_displayImage_DisplayImage": [
-/******/ 				"webpack/container/remote/displayImage/DisplayImage"
+/******/ 			"524": [
+/******/ 				524
 /******/ 			],
-/******/ 			"webpack_container_remote_displayTicket_DisplayTicket": [
-/******/ 				"webpack/container/remote/displayTicket/DisplayTicket"
+/******/ 			"588": [
+/******/ 				588
 /******/ 			],
-/******/ 			"webpack_container_remote_nav_Header": [
-/******/ 				"webpack/container/remote/nav/Header"
+/******/ 			"648": [
+/******/ 				648
 /******/ 			],
-/******/ 			"webpack_container_remote_nav_Footer": [
-/******/ 				"webpack/container/remote/nav/Footer"
+/******/ 			"832": [
+/******/ 				832
 /******/ 			],
-/******/ 			"webpack_container_remote_buy_Buy": [
-/******/ 				"webpack/container/remote/buy/Buy"
+/******/ 			"969": [
+/******/ 				969
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
-/******/ 			"webpack/container/remote/displayImage/DisplayImage": [
+/******/ 			"524": [
 /******/ 				"default",
-/******/ 				"./DisplayImage",
-/******/ 				"webpack/container/reference/displayImage"
+/******/ 				"./displayImage",
+/******/ 				837
 /******/ 			],
-/******/ 			"webpack/container/remote/displayTicket/DisplayTicket": [
+/******/ 			"588": [
 /******/ 				"default",
-/******/ 				"./DisplayTicket",
-/******/ 				"webpack/container/reference/displayTicket"
+/******/ 				"./displayTicket",
+/******/ 				840
 /******/ 			],
-/******/ 			"webpack/container/remote/nav/Header": [
+/******/ 			"648": [
 /******/ 				"default",
-/******/ 				"./Header",
-/******/ 				"webpack/container/reference/nav"
+/******/ 				"./header",
+/******/ 				787
 /******/ 			],
-/******/ 			"webpack/container/remote/nav/Footer": [
-/******/ 				"default",
-/******/ 				"./Footer",
-/******/ 				"webpack/container/reference/nav"
-/******/ 			],
-/******/ 			"webpack/container/remote/buy/Buy": [
+/******/ 			"832": [
 /******/ 				"default",
 /******/ 				"./Buy",
-/******/ 				"webpack/container/reference/buy"
+/******/ 				885
+/******/ 			],
+/******/ 			"969": [
+/******/ 				"default",
+/******/ 				"./footer",
+/******/ 				787
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.remotes = (chunkId, promises) => {
@@ -1382,10 +1326,10 @@ module.exports = nav;
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					initExternal("webpack/container/reference/displayImage");
-/******/ 					initExternal("webpack/container/reference/displayTicket");
-/******/ 					initExternal("webpack/container/reference/nav");
-/******/ 					initExternal("webpack/container/reference/buy");
+/******/ 					initExternal(837);
+/******/ 					initExternal(840);
+/******/ 					initExternal(787);
+/******/ 					initExternal(885);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -1407,7 +1351,7 @@ module.exports = nav;
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"main": 0
+/******/ 			179: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -1419,7 +1363,7 @@ module.exports = nav;
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if("main" == chunkId) {
+/******/ 						if(179 == chunkId) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 							promises.push(installedChunkData[2] = promise);
@@ -1494,7 +1438,7 @@ module.exports = nav;
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__(841);
 /******/ 	
 /******/ })()
 ;

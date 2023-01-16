@@ -2,25 +2,25 @@ import { registerApplication, start } from 'single-spa';
 
 registerApplication(
     'display-image',
-    () => import('displayImage/DisplayImage'),
+    () => import('displayImage/displayImage'),
     location => location.pathname.startsWith('/')
 );
 
 registerApplication(
     'display-ticket',
-    () => import('displayTicket/DisplayTicket'),
+    () => import('displayTicket/displayTicket'),
     location => location.pathname.startsWith('/')
 );
 
 registerApplication(
     'header',
-    () => import('nav/Header'),
+    () => import('nav/header'),
     location => location.pathname.startsWith('/')
 );
 
 registerApplication(
     'footer',
-    () => import('nav/Footer'),
+    () => import('nav/footer'),
     location => location.pathname.startsWith('/')
 );
 

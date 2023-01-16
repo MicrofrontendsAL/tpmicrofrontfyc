@@ -3,15 +3,12 @@ var buy;
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "webpack/container/entry/buy":
-/*!***********************!*\
-  !*** container entry ***!
-  \***********************/
+/***/ 489:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var moduleMap = {
 	"./Buy": () => {
-		return Promise.all([__webpack_require__.e("vendors-node_modules_single-spa-svelte_lib_single-spa-svelte_js-node_modules_svelte_internal_-787e98"), __webpack_require__.e("src_index_js")]).then(() => (() => ((__webpack_require__(/*! ./src/index */ "./src/index.js")))));
+		return Promise.all([__webpack_require__.e(136), __webpack_require__.e(92)]).then(() => (() => ((__webpack_require__(92)))));
 	}
 };
 var get = (module, getScope) => {
@@ -43,20 +40,14 @@ __webpack_require__.d(exports, {
 
 /***/ }),
 
-/***/ "webpack/container/reference/displayTicket":
-/*!********************************!*\
-  !*** external "displayTicket" ***!
-  \********************************/
+/***/ 840:
 /***/ ((module) => {
 
 module.exports = displayTicket;
 
 /***/ }),
 
-/***/ "webpack/container/reference/home":
-/*!***********************!*\
-  !*** external "home" ***!
-  \***********************/
+/***/ 672:
 /***/ ((module) => {
 
 module.exports = home;
@@ -207,21 +198,21 @@ module.exports = home;
 /******/ 	/* webpack/runtime/remotes loading */
 /******/ 	(() => {
 /******/ 		var chunkMapping = {
-/******/ 			"src_index_js": [
-/******/ 				"webpack/container/remote/home/ticket",
-/******/ 				"webpack/container/remote/displayTicket/displayTicket"
+/******/ 			"92": [
+/******/ 				6,
+/******/ 				588
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
-/******/ 			"webpack/container/remote/home/ticket": [
+/******/ 			"6": [
 /******/ 				"default",
 /******/ 				"./ticket",
-/******/ 				"webpack/container/reference/home"
+/******/ 				672
 /******/ 			],
-/******/ 			"webpack/container/remote/displayTicket/displayTicket": [
+/******/ 			"588": [
 /******/ 				"default",
 /******/ 				"./displayTicket",
-/******/ 				"webpack/container/reference/displayTicket"
+/******/ 				840
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.remotes = (chunkId, promises) => {
@@ -308,8 +299,8 @@ module.exports = home;
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					initExternal("webpack/container/reference/displayTicket");
-/******/ 					initExternal("webpack/container/reference/home");
+/******/ 					initExternal(840);
+/******/ 					initExternal(672);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -331,7 +322,7 @@ module.exports = home;
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"buy": 0
+/******/ 			283: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -418,7 +409,7 @@ module.exports = home;
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__("webpack/container/entry/buy");
+/******/ 	var __webpack_exports__ = __webpack_require__(489);
 /******/ 	buy = __webpack_exports__;
 /******/ 	
 /******/ })()

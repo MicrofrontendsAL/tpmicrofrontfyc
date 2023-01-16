@@ -37,7 +37,7 @@ function singleSpaSvelte(userOpts) {
 
   if (!opts.component) {
     throw new Error("single-spa-svelte must be passed opts.component");
-  }
+  } // Just a shared object to store the mounted object state
 
 
   var mountedInstances = {};
